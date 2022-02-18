@@ -168,6 +168,7 @@
   <ItemGroup>
     <Content Include="Company.master" />
     <Content Include="App_Data\documents\Session - 17-Feb-2022.pdf" />
+    <Content Include="App_Data\documents\NET Framework Web Forms.pdf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
