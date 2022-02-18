@@ -1,0 +1,15 @@
+﻿span.selected {
+    font-weight: bold;
+}
+
+body {
+    font-family: arial;
+}
+
+div.topmenu {
+    color: darkcyan;
+}
+
+img.logo {
+    width: 50px;
+}

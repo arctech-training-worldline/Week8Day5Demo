@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Company.master.cs" Inherits="MasterPagesDemo.Company" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Home Page</title>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="topmenu">
+        <a href="Home.aspx">
+            <img class="logo" src="images/logo.png" alt="Logo" /></a>
+        &nbsp;&nbsp;
+    <span><a href="Home.aspx">Home</a></span>
+        <span class="selected"><a href="Services.aspx">Services</a></span>
+        <span><a href="AboutUs.aspx">About Us</a></span>
+        <span><a href="ContactUs.aspx">Contact Us</a></span>
+        <span><a href="Clients.aspx">Clients</a></span>
+        <span><a href="Technologies.aspx">Technologies</a></span>
+    </div>
+    <asp:ContentPlaceHolder runat="server" ID="ContentPlaceHolderMainData">
+    </asp:ContentPlaceHolder>
+    <footer>
+        Thank you for visiting our website. You can call us anytime at +91 99882 22887
+    </footer>
+    <asp:ContentPlaceHolder runat="server" ID="EndingMessage"></asp:ContentPlaceHolder>
+</body>
+</html>
+
+
+<%--<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>--%>

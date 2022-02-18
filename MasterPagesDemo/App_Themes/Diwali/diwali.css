@@ -1,0 +1,10 @@
+﻿body {
+    color: yellow;
+    background: orange;
+}
+
+h1 {
+    background-image: url("/images/diya.jpg");
+    background-repeat:no-repeat;
+    background-position-x: 350px;
+}
