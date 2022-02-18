@@ -1,0 +1,8 @@
+Name: Raman Gujral
+Email: raman.gujral@rediff.com
+Mobile: 12345679
+Job: Dont Know
+DateOfBirth: 01-Jan-1985
+SkillSet: 5
+Gender: Female
+Summary: Dont know summary

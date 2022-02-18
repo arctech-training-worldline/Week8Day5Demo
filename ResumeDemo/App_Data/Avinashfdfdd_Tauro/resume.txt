@@ -1,0 +1,8 @@
+Name: Avinashfdfdd Tauro
+Email: 2222
+Mobile: 9820056748
+Job: Programmer
+DateOfBirth: 01-Feb-2022
+SkillSet: 1
+Gender: Male
+Summary: 23232323

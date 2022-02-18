@@ -1,0 +1,8 @@
+Name: Avinash121111 Tauro
+Email: avinashtauro@gmail.com
+Mobile: 9820056748
+Job: Programmer
+DateOfBirth: 25-Feb-2022
+SkillSet: 1
+Gender: Male
+Summary: Nothing interesting

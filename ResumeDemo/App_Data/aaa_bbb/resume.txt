@@ -1,0 +1,8 @@
+Name: aaa bbb
+Email: avinashtauro@gmail.com
+Mobile: 9820056748
+Job: Programmer
+DateOfBirth: 02-Feb-2022
+SkillSet: 1
+Gender: Male
+Summary: wewewewe
