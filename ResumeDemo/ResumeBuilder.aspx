@@ -27,7 +27,7 @@
                         <div class="row justify-content-between text-left">
                             <div class="form-group col-sm-6 flex-column d-flex">
                                 <label class="form-control-label px-3">First name<span class="text-danger"> *</span></label>
-                                <asp:TextBox runat="server" CssClass="enable-validate" ID="TextBoxFirstName" placeholder="Enter your first name" runat="server" />
+                                <asp:TextBox runat="server" CssClass="enable-validate" ID="TextBoxFirstName" placeholder="Enter your first name" />
                             </div>
                             <div class="form-group col-sm-6 flex-column d-flex">
                                 <label class="form-control-label px-3">Last name<span class="text-danger"> *</span></label>

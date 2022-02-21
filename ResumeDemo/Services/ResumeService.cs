@@ -13,19 +13,21 @@ namespace ResumeDemo.Services
         Female = 2
     }
 
+    /// <summary>
+    /// What is the single responsibility principle of this ResumeService class?
+    /// To save the Resume Details to a File.
+    /// </summary>
     public class ResumeService
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
         public string Mobile { get; set; }
-
         public string Job { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string SkillSet { get; set; }
         public GenderType Gender { get; set; }
         public string Summary { get; set; }
-
         public string ResumePath { get; set; }
 
         public void Save(string basePath)

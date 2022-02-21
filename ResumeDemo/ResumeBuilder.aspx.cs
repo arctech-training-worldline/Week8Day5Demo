@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using ResumeDemo.Services;
 
 namespace ResumeDemo
 {
+    // Single Responsibility Principle
     public partial class ResumeBuilder : System.Web.UI.Page
     {
         protected void ButtonSave_Click(object sender, EventArgs e)
@@ -29,7 +25,6 @@ namespace ResumeDemo
                 };
 
                 var basePath = Server.MapPath("~/App_Data");
-
 
                 resumeService.Save(basePath);
 
